@@ -40,9 +40,14 @@ li span {
 	opacity: 0;
 }
 
+li:hover {
+	cursor: pointer;
+}
+
 li:hover span{
 	width: 40px;
 	opacity: 1.0;
+	cursor: pointer;
 }
 
 li:nth-child(2n) {
@@ -66,8 +71,16 @@ input:focus {
 	outline: none;
 }
 
-.fa-plus {
+.fa-plus, .fa-minus {
 	float: right;
+}
+
+.fa-plus:hover {
+	cursor: pointer;
+}
+
+.fa-minus:hover {
+	cursor: pointer;
 }
 
 
