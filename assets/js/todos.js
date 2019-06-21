@@ -21,4 +21,5 @@ $("input[type='text']").keypress(function(event) {
 
 $("#plus").click(function() {
 	$("input[type='text']").fadeToggle();
+	$("i", this).toggleClass("fa fa-plus fa fa-minus");
 }) 
